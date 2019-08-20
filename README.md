@@ -51,12 +51,11 @@ Below are some more examples of routing
 		});
 	```
 - Response to 'delete' request at '/user'
-
-	```
+```
 		app.delete('/user', function(req, res){
 			res.send('Delete request at \user'
 		});
-``` 
+```
 
 ### Routing method
 Express supports the following routing methods derived from the HTTP methods
